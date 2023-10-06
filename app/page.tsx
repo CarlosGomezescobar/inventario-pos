@@ -8,12 +8,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         
         
-          <UserButton afterSignOutUrl='/' />
-        
-        
-        
+         
         <div>
-          
+           <UserButton afterSignOutUrl='/' />
+      
           <h1> Pantalla de Inicio</h1>
 
           <SideNavbar />

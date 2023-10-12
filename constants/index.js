@@ -5,23 +5,23 @@ export const sidebarLinks = [
       label: "Home",
     },
     {
-      imgURL: "/assets/search.svg",
-      route: "/search",
-      label: "Buscar",
+      imgURL: "/assets/tag.svg",
+      route: "/proveedores",
+      label: "Proveedores",
     },
     {
       imgURL: "/assets/heart.svg",
-      route: "/activity",
-      label: "Actividad",
+      route: "/notificaciones",
+      label: "Notificaciones",
     },
     {
       imgURL: "/assets/create.svg",
-      route: "/create-thread",
+      route: "/productos",
       label: "Crear Productos",
     },
     {
       imgURL: "/assets/community.svg",
-      route: "/communities",
+      route: "/inventario",
       label: "Inventario",
     },
     {

@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
 import TopBar from './components/top/TopBar'
 import LeftSidebar from './components/top/LeftSidebar'
-import RigtSidebar from './components/top/RigtSidebar'
+
 import Bottombar from './components/top/Bottombar'
 
 
@@ -36,8 +36,7 @@ export default function RootLayout({
             {children}
            </div>
           </section>
-          
-          <RigtSidebar />
+        
           </main>
 
           <Bottombar />
